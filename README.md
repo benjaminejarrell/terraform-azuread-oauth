@@ -12,13 +12,13 @@ You need the *Cloud Application Administrator* role on your Entra tenet.
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_azuread"></a> [azuread](#requirement\_azuread) | ~> 2.45.0 |
+| <a name="requirement_azuread"></a> [azuread](#requirement\_azuread) | >= 2.52.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_azuread"></a> [azuread](#provider\_azuread) | ~> 2.45.0 |
+| <a name="provider_azuread"></a> [azuread](#provider\_azuread) | >= 2.52.0 |
 
 ## Modules
 
@@ -42,14 +42,14 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_app_role_assignment_required"></a> [app\_role\_assignment\_required](#input\_app\_role\_assignment\_required) | If true, internal users are required to be assigned to this app | `bool` | `true` | no |
-| <a name="input_app_url"></a> [app\_url](#input\_app\_url) | URL of the application | `string` | n/a | yes |
-| <a name="input_name"></a> [name](#input\_name) | Name of the Application in AAD | `string` | n/a | yes |
+| <a name="input_name"></a> [name](#input\_name) | Name of the Application in EntraID | `string` | n/a | yes |
+| <a name="input_redirect_uri"></a> [redirect\_uri](#input\_redirect\_uri) | Where the application sends the user after authorization. Also called reply URL. | `string` | n/a | yes |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| <a name="output_azuread_application_password"></a> [azuread\_application\_password](#output\_azuread\_application\_password) | AzureAD Client Secret |
-| <a name="output_azuread_application_registration_id"></a> [azuread\_application\_registration\_id](#output\_azuread\_application\_registration\_id) | AzureAD Client ID |
-| <a name="output_azuread_tenet_id"></a> [azuread\_tenet\_id](#output\_azuread\_tenet\_id) | AzureAD Tenet ID |
+| <a name="output_entraid_application_password"></a> [entraid\_application\_password](#output\_entraid\_application\_password) | EntraID Client Secret |
+| <a name="output_entraid_application_registration_id"></a> [entraid\_application\_registration\_id](#output\_entraid\_application\_registration\_id) | EntraID Client ID |
+| <a name="output_entraid_tenet_id"></a> [entraid\_tenet\_id](#output\_entraid\_tenet\_id) | EntraID Tenet ID |
 <!-- END_TF_DOCS -->
