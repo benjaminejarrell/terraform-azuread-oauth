@@ -1,6 +1,6 @@
 variable "name" {
   type        = string
-  description = "Name of the Application in AAD"
+  description = "Name of the Application in EntraID"
 }
 
 variable "app_role_assignment_required" {
@@ -9,7 +9,7 @@ variable "app_role_assignment_required" {
   default     = true
 }
 
-variable "app_url" {
+variable "redirect_uri" {
   type        = string
-  description = "URL of the application"
+  description = "Where the application sends the user after authorization. Also called reply URL."
 }

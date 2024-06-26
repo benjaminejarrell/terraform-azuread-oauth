@@ -1,6 +1,6 @@
 locals {
   azuread_tenet_id = data.azuread_client_config.current.tenant_id
-  app_url          = var.app_url
+  app_url          = var.redirect_uri
 }
 
 # Grab the Entra Tenet ID
