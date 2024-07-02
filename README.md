@@ -52,4 +52,5 @@ No modules.
 | <a name="output_entraid_application_password"></a> [entraid\_application\_password](#output\_entraid\_application\_password) | EntraID Client Secret |
 | <a name="output_entraid_application_registration_id"></a> [entraid\_application\_registration\_id](#output\_entraid\_application\_registration\_id) | EntraID Client ID |
 | <a name="output_entraid_tenet_id"></a> [entraid\_tenet\_id](#output\_entraid\_tenet\_id) | EntraID Tenet ID |
+| <a name="output_oidc_issuer"></a> [oidc\_issuer](#output\_oidc\_issuer) | OIDC Issuer URL |
 <!-- END_TF_DOCS -->
