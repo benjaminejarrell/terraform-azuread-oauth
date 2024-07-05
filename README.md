@@ -42,7 +42,7 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_app_role_assignment_required"></a> [app\_role\_assignment\_required](#input\_app\_role\_assignment\_required) | If true, internal users are required to be assigned to this app | `bool` | `true` | no |
-| <a name="input_app_visable"></a> [app\_visable](#input\_app\_visable) | If true, the Enterprise Appliation will be visable to users in My Apps and Office 365 Launcher | `bool` | `false` | no |
+| <a name="input_app_visible"></a> [app\_visible](#input\_app\_visible) | If true, the Enterprise Application will be visible to users in My Apps and Office 365 Launcher | `bool` | `false` | no |
 | <a name="input_name"></a> [name](#input\_name) | Name of the Application in EntraID | `string` | n/a | yes |
 | <a name="input_redirect_uri"></a> [redirect\_uri](#input\_redirect\_uri) | Where the application sends the user after authorization. Also called reply URL. | `string` | n/a | yes |
 
