@@ -13,3 +13,9 @@ variable "redirect_uri" {
   type        = string
   description = "Where the application sends the user after authorization. Also called reply URL."
 }
+
+variable "app_visable" {
+  type        = bool
+  description = "If true, the Enterprise Appliation will be visable to users in My Apps and Office 365 Launcher"
+  default     = false
+}
