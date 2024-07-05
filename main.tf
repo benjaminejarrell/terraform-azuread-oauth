@@ -37,7 +37,7 @@ resource "azuread_service_principal" "main" {
   app_role_assignment_required = var.app_role_assignment_required
   owners                       = [data.azuread_client_config.current.object_id]
   feature_tags {
-    hide = !var.app_visable
+    hide = !var.app_visible
   }
 }
 
